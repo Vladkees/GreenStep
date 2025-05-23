@@ -75,3 +75,45 @@ GreenStep is a cross-platform ecological app designed to help users track their 
 - All changes timestamped
 
 ---
+
+## 🧱 System Architecture
+
+### 🔧 Main Components
+
+| Component               | Description                                |
+|-------------------------|--------------------------------------------|
+| Mobile App (Flutter)    | User interface and offline support         |
+| API Gateway             | Auth, routing, rate-limiting               |
+| User Service            | Profiles, scores, settings                 |
+| EcoAction Service       | Track & verify eco-friendly actions        |
+| Challenge/Event Service | Manage community activities & rankings     |
+| Notification Service    | Push/email alerts                          |
+| Analytics Service       | Generate usage and impact reports          |
+| Storage Service         | Manage uploads (photos, docs)              |
+| Admin Panel (Vue/React) | Admin UI for moderation and insights       |
+| Database (PostgreSQL)   | Store persistent data                      |
+| Kafka/RabbitMQ          | Event-driven communication                 |
+
+---
+
+## 🧰 Tech Stack
+
+| Layer          | Tools / Frameworks                |
+|----------------|----------------------------------|
+| Frontend       | Flutter                          |
+| Backend        | Node.js / Python Flask           |
+| API Gateway    | NGINX / Express Gateway          |
+| Database       | PostgreSQL                       |
+| Authentication | Auth0 / Firebase Auth            |
+| Messaging      | Kafka / RabbitMQ                 |
+| Storage        | AWS S3 / Firebase Storage        |
+| Monitoring     | Prometheus + Grafana             |
+| Notifications  | Firebase Cloud Messaging (FCM)   |
+| CI/CD          | GitHub Actions / GitLab CI       |
+| Deployment     | Docker + Kubernetes / GCP        |
+
+---
+
+## 📎 License
+
+MIT License. See [LICENSE](./LICENSE) for details.
