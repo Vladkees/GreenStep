@@ -113,7 +113,3 @@ GreenStep is a cross-platform ecological app designed to help users track their 
 | Deployment     | Docker + Kubernetes / GCP        |
 
 ---
-
-## 📎 License
-
-MIT License. See [LICENSE](./LICENSE) for details.
