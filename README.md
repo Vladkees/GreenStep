@@ -1,5 +1,6 @@
 # GreenStep
 ****Functional Requirements****
+
 **User (Eco Citizen)**
 Can register a personal account using email or social login (Google, Apple)
 
