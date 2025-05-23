@@ -1,69 +1,77 @@
-# GreenStep
-****Functional Requirements****
+# 🌱 GreenStep — Ecological Mobile App
 
-**User (Eco Citizen)**
-Can register a personal account using email or social login (Google, Apple)
+GreenStep is a cross-platform ecological app designed to help users track their eco-friendly actions, earn an EcoScore, join challenges, and contribute to a greener planet.
 
-Can securely log in and log out
+---
 
-Can track eco-actions (e.g., recycling, biking, tree planting)
+## ✅ Functional Requirements
 
-Can earn and view an EcoScore for completed actions
+### 👤 User (Eco Citizen)
+- Register via email or social login (Google, Apple)
+- Secure login/logout
+- Track eco-actions (recycling, biking, etc.)
+- Earn/view **EcoScore**
+- Join local events & eco-challenges
+- View leaderboard rankings
+- View/edit eco-profile and activity stats
+- Connect with friends
+- Upload documents/photos of actions
+- Receive personalized eco tips
+- Manage app settings
 
-Can view local environmental events and participate
+### 🛠️ Administrator
+- Admin dashboard login
+- Manage eco-challenges and actions
+- Moderate uploads and events
+- Publish tips and global announcements
+- Set EcoScore calculation rules
+- View usage and community engagement
+- Approve user-submitted events
+- Targeted notifications
+- Export user/activity data
 
-Can join eco-challenges and view leaderboard rankings
+### ⚙️ System
+- Real-time EcoScore calculation
+- Location/time tracking of actions
+- Send reminders for goals/challenges
+- Securely store user history
+- Prevent fraudulent entries
+- Sync data across devices
+- Support multilingual content
+- Daily backups
+- GDPR-compliant
 
-Can view and edit their personal eco-profile and statistics
+---
 
-Can connect with friends and view their progress
+## 📊 Non-Functional Requirements
 
-Can upload documents or media (e.g., photos of activities)
+### 🚀 Performance
+- ≥ 5,000 concurrent users
+- 95% of API calls < 300ms
+- Home dashboard loads < 2s
+- Real-time score updates < 1s
 
-Can get tips and recommendations for sustainable living
+### 🛡️ Security
+- HTTPS + OAuth 2.0 + JWT
+- Encrypted user data and docs
+- 2FA for admin panel
+- GDPR & COPPA compliance
 
-Can receive notifications about nearby eco-events or goals
+### 📈 Scalability
+- Support 100k+ users
+- Regional scaling (events, feeds)
+- Modular services for future features
 
-Can submit suggestions or feedback about the app
+### 👁️‍🗨️ Usability
+- Cross-platform (iOS & Android)
+- WCAG 2.1 AA compliance
+- Multilingual (English, Ukrainian)
+- 3-tap action logging UX
 
-Can manage app settings (language, notifications, etc.)
+### 📉 Analytics & Reporting
+- Admin dashboard with KPIs
+- Leaderboard and impact stats
+- Export to PDF/CSV
+- All changes timestamped
 
-**Administrator**
-Can log into the admin dashboard
-
-Can manage and moderate public eco-challenges
-
-Can verify uploaded activity documents (optional)
-
-Can manage categories of eco-actions (add/update/delete)
-
-Can publish announcements or tips globally or by location
-
-Can set thresholds and formulas for EcoScore calculations
-
-Can view usage metrics and community engagement levels
-
-Can approve new event submissions from users or NGOs
-
-Can send push/email notifications to targeted users
-
-Can export data for reports or research
-
-**System**
-Must calculate and update user EcoScore in real-time
-
-Must track completed actions and time/location of events
-
-Must send reminders and nudges for incomplete challenges
-
-Must store all user activity and eco-history securely
-
-Must detect and prevent duplicate or fraudulent entries
-
-Must ensure data synchronization between devices
-
-Must support multi-language and region-based content
-
-Must regularly back up user data and statistics
-
-Must comply with relevant data privacy regulations (e.g., GDPR)
+---
