@@ -1,6 +1,6 @@
 # GreenStep
-Functional Requirements
-User (Eco Citizen)
+****Functional Requirements****
+**User (Eco Citizen)**
 Can register a personal account using email or social login (Google, Apple)
 
 Can securely log in and log out
@@ -27,7 +27,7 @@ Can submit suggestions or feedback about the app
 
 Can manage app settings (language, notifications, etc.)
 
-Administrator
+**Administrator**
 Can log into the admin dashboard
 
 Can manage and moderate public eco-challenges
@@ -48,7 +48,7 @@ Can send push/email notifications to targeted users
 
 Can export data for reports or research
 
-System
+**System**
 Must calculate and update user EcoScore in real-time
 
 Must track completed actions and time/location of events
